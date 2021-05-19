@@ -25,6 +25,15 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
+#I've tried to keep the API as intuitive as possible, and have followed the Ruby methodology for method naming and code flow
+gem 'rexml', '~> 3.2', '>= 3.2.5'
+
+#Yarn is a multi-process webserver written in Ruby 1.9 by Jesper Kjeldgaard.
+
+
+gem 'nokogiri', '~> 1.11', '>= 1.11.4'
+
+
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
 
