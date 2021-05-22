@@ -8,6 +8,8 @@
 # this file is here to facilitate running it.
 #
 
+require "pg"
+
 require "rubygems"
 
 m = Module.new do
