@@ -9,6 +9,13 @@ gem 'rails', '~> 6.1.3', '>= 6.1.3.2'
 #postgres
 gem 'pg', '~> 1.2', '>= 1.2.3'
 
+# bootstrap
+gem 'bootstrap-sass', '~> 3.4.1'
+gem 'sassc-rails', '>= 2.1.0'
+
+#jQuery
+gem 'jquery-rails'
+
 # Use sqlite3 as the database for Active Record
 #gem 'sqlite3', '~> 1.4', '>= 1.4.2'
 # Use Puma as the app server
