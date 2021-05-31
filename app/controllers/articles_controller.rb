@@ -8,6 +8,7 @@ class ArticlesController < ApplicationController
     
     def index
         @articles = Article.all
+        @articles = Article.paginate(page: params[:page], per_page: 5)
     end
 
     def create 
@@ -22,7 +23,8 @@ class ArticlesController < ApplicationController
         end
     end
 
-    def show 
+    def show
+        @user_articles = @user.articles.paginate(page: params[:page], per_page: 5)
     end
 
     def edit 
