@@ -20,8 +20,9 @@ gem 'jquery-rails'
 #The bcrypt Ruby gem provides a simple wrapper for safely handling passwords.
 gem 'bcrypt', '~> 3.1', '>= 3.1.12'
 
-
-
+#for images 
+gem 'carrierwave'
+gem 'mini_magick'
 
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
